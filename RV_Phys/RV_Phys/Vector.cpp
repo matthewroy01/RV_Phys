@@ -27,7 +27,6 @@ Vector3 Vector3::GetNormalized()
 		z / magnitude);
 }
 
-
 void Vector3::Normalize()
 {
 	Vector3 tmp = GetNormalized();
@@ -35,6 +34,20 @@ void Vector3::Normalize()
 	x = tmp.x;
 	y = tmp.y;
 	z = tmp.z;
+}
+
+float Dot(Vector3 ls, Vector3 rs)
+{
+	return (ls.x * rs.x) +
+		(ls.y * rs.y) +
+		(ls.z * rs.z);
+}
+
+Vector3 Cross(Vector3 ls, Vector3 rs)
+{
+	return Vector3((ls.y * rs.z) - (ls.z * rs.y),
+		(ls.z * rs.x) - (ls.x * rs.z),
+		(ls.x * rs.y) - (ls.y * rs.x));
 }
 
 Vector3 operator+ (Vector3 ls, Vector3 rs)

@@ -19,6 +19,10 @@ struct Vector3
 	void Normalize();
 };
 
+// dot and cross products
+float Dot(Vector3 ls, Vector3 rs);
+Vector3 Cross(Vector3 ls, Vector3 rs);
+
 // Vector on Vector overloads
 Vector3 operator+ (Vector3 ls, Vector3 rs);
 Vector3 operator- (Vector3 ls, Vector3 rs);
