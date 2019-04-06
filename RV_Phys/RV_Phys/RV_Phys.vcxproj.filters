@@ -13,11 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Math">
-      <UniqueIdentifier>{4476de23-5f71-4269-adc0-24154605559f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Math">
-      <UniqueIdentifier>{dd7604e0-7a03-4365-9775-ff4cf8d93a40}</UniqueIdentifier>
+      <UniqueIdentifier>{ae4ae265-fb7a-4a73-9010-ed75888fc662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{10ea0c61-9cc3-4a81-890c-9451a17e30b6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

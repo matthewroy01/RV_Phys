@@ -5,7 +5,7 @@
 
 #include "RV_Phys.h"
 
-extern "C" int testAdd(int a, int b)
+int testAdd(int a, int b)
 {
 	return a + b;
 }

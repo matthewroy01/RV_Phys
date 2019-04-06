@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{44D72884-584B-42B8-9980-22772B912E5E}</ProjectGuid>
+    <ProjectGuid>{27902D75-6325-490A-843B-EAB326031413}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>RVPhys</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
